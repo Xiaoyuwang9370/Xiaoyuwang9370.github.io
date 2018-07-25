@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<!--for-mobile-apps-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="" />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!--//for-mobile-apps-->
+	
+	<!-- Custom-Theme-Files -->
+    <!-- Bootstrap-CSS --> 			<link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- JQuery --> 				<script src="js/jquery.min.js">			</script>
+    <!-- Bootstrap-Main --> 		<script src="js/bootstrap.min.js">		</script>
+    <!-- Index-Page-Styling --> 	<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<!-- Start-Smooth-Scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){     
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},2000);
+            });
+        });
+    </script>
+<!-- //End-Smooth-Scrolling -->
+
+<link rel="stylesheet" type="text/css" href="css/easy-responsive-tabs.css " />
+<script src="js/easyResponsiveTabs.js"></script>
+	
+</head>
+
+<body>
+
+<div class="header">
+		
+		<div class="nav">
+			<nav class="navbar navbar-inverse navbar-fixed-top">
+				<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+								data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						   <a class="navbar-brand" href="#"><span id="logo_2">辉煌小游戏</span></a>
+						</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#home" class="active scroll">首页</a></li>
+							<li><a href="#about" class="scroll">游戏</a></li>
+							<li><a href="#requirements" class="scroll">要求</a></li>
+							<li><a href="#games" class="scroll">休闲</a></li>
+							<li><a href="#ourteam" class="scroll">团队</a></li>
+							<li><a href="#contact" class="scroll">联系</a></li>
+						</ul>
+						
+					</div><!-- navbar-collapse -->
+				</div><!-- container -->
+			</nav>
+		</div> <!-- Nav Ends -->
+				
+		<div class="banner" id="home">
+			<div class="container">
+				<div class="banner-content">
+					<h1>辉煌小游戏</H1>
+					<h2>引领时代的潮流 </h2>
+					<p>小哥哥小姐姐的最爱 </p>
+				</div>
+			</div>
+		</div> <!-- Banner Ends Here -->
+</div> <!-- Header Ends -->
+
+	
+<div class="about" id="about">	
+	<div class="container">
+	  
+		<h3> 欢迎来到 <span>辉煌</span> </h3>
+		<h4>这是一个多功能的网页小游戏网站，站内有当前社会流行的小游戏，深受小哥哥小姐姐们的喜爱。也有
+		一些精美的休闲小游戏，用作游戏过后的精神放松</h4>
+		
+		<div class="about-image">
+			
+			<div class="col-md-4 about-size">
+				<div class="shadow">
+					<a href="planewar.html" target="_blank"><img src="./images/ai_1.jpg" alt="image"></a>
+				</div>
+				<h5><a class="game-title" href="planewar.html" target="_blank">飞机大战</a></h5>
+				<p>飞机大战，使用鼠标拖动飞机，躲避敌人，有三种敌人，体积越大的敌人血量越多，
+					可以吃2种道具，一种可以增加子弹，一种是炸弹，按空格键释放炸弹</p>
+			
+			</div>
+			
+			<div class="col-md-4 about-size">
+				<div class="shadow">
+					<a href="ninepic.html" target="_blank"><img src="./images/ai_2.jpg" alt="image"></a>
+				</div>
+				<h5><a class="game-title" href="ninepic.html" target="_blank">拼图游戏</a></h5>
+				<p>基于当前流行的jquery库上开发的一个在线拼图游戏，点击“开始”后，可以任意拖动已经打散的图片，
+					有很不错的拖动效果哦</p>
+			
+			</div>
+			
+			<div class="col-md-4 about-size">
+				<div class="shadow">
+					<a href="tanchishe.html" target="_blank"><img src="./images/ai_3.jpg" alt="image"></a>
+				</div>
+				<h5><a class="game-title" href="tanchishe.html" target="_blank"></a>贪吃蛇</h5>
+				<p>功能添加
+	               1.添加游戏设置 1.游戏背景图选择 2.游戏速度选择
+	               2.新增最佳成绩
+	               3.新增耗时时间数据
+	                             游戏体验
+	               1.新增空格暂停键盘操作
+	               2.修改蛇头 和 蛇头样式
+	               3.弹框显示优化</p>
+			
+			</div>
+		  <div class="clearfix"> </div>
+		</div>  <!-- About-image Ends  -->
+		
+	</div> <!-- Container ends -->	
+</div> <!-- About Ends -->
+
+
+<div class="requirement" id="requirements"> <!-- Requirements Starts   -->
+	<div class="container">
+		<div class="all-require">
+		
+				<div class="heading">
+					<h3>配置 <span>  要求</span> </h3>
+				</div>
+		
+				<div class="specification">
+		
+					<div class="col-md-4 require-size">
+						<div class="grid">
+							<i class="pc"> </i>
+							<p> 操作系统 : <span>Windows 8 64-Bit </span> </p>
+							<p>	CPU : <span>Intel® Core™ 2 Duo  </span>	</p>
+							<p>	内存 : <span>6 GB RAM	</span> </p>
+							<p>	硬盘空间 : <span>40 GB	</span> </p>
+							<p>	视频 : <span>NVIDIA® GTS 450 / ATI® 5870</span> </p>
+							<p>	声音 : <span>DirectX 兼容</span> </p>
+							<p>	DirectX® : <span>DirectX® 11	</span> </p>
+							<p>	Internet : <span>宽带  </span>	</p>
+						</div>
+					</div>
+			
+					<div class="col-md-4 require-size">
+						<div class="grid">
+							<i class="xbox"> </i>
+							<h5> Xbox One </h5>
+							<p>	存储 : <span>40 GB的可用空间 </span>	</p>
+							<p>	高清视频输出 : <span>1080px	</span> </p>
+					
+							<div class="grid-bottom">
+								<h5> Xbox 360 </h5>
+								<p>	存储 : <span>50 GB的可用空间 </span>	</p>
+								<p>	高清视频输出 : <span>1920px	</span> </p>
+							</div>
+						</div>
+					</div>
+			
+					<div class="col-md-4 require-size">
+			
+						<div class="grid">
+							<i class="ps"> </i>
+							<h5> PS 2 </h5>
+							<p>	存储 : <span>40 GB的可用空间 </span>	</p>
+							<p>	高清视频输出 : <span>1080px	</span> </p>
+					
+							<div class="grid-bottom">
+								<h5> PS 3 </h5>
+								<p>	存储 : <span>50 GB的可用空间 </span>	</p>
+								<p>	高清视频输出 : <span>1920px	</span> </p>
+							</div>
+						</div>
+					</div>
+					
+				  <div class="clearfix"> </div>
+				</div>	<!-- Specification Ends here   -->
+		</div>
+	  </div>
+	</div> <!-- requirement Ends -->
+
+
+<div class="upcoming" id="games">
+	<div class="container">
+		<div class="padding-upcoming">
+			
+			<h3>视觉 <span>  盛宴</span> </h3>
+				
+			<div class="background shadow1">
+
+				<div id="parentVerticalTab">
+
+					<div class="col-md-7 trailer game-video">	
+						<div class="resp-tabs-container hor_1">
+												
+							<div>
+								<div class="category">
+									<iframe  width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+								</div>
+							</div>
+							<div>
+								<div class="category">
+									<iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+								</div>
+							</div>	
+							<div>
+								<div class="category">
+									<iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+								</div>
+							</div>
+						  <div class="clearfix"></div>
+						</div>
+					</div>
+				
+					
+					<div class="col-md-5 trailer-text game-image">
+						<ul class="resp-tabs-list hor_1">
+							<li>
+								<div class="sub-trailer">
+									<div class="sub-img">
+										<a href="water.html" target="_blank"><img src="images/up_1.jpg" alt="img07"/></a>
+									</div>
+									<div class="sub-text">
+										<h4><a class="view-xiu" href="water.html" target="_blank">水波纹视觉图</a></h4>
+										<p>水波纹视觉动画，鼠标在图上移动，波纹随之出现…</p>
+									</div>
+								  <div class="clearfix"> </div>
+								</div>
+							</li>
+						
+							<li>
+								<div class="sub-trailer">
+									<div class="sub-img">
+										<a href="fisheatfish.html" target="_blank"><img src="images/up_2.jpg" alt="img07"/></a>
+									</div>
+									<div class="sub-text">
+										<h4><a class="view-xiu" href="fisheatfish.html" target="_blank">大鱼吃小鱼</a> </h4>
+										<p>哇哦，大鱼吃小鱼jQuery版。美丽的大海，灿烂的珊瑚。吃小鱼了！！
+                                                                                   放飞梦想，全部鱼群。好玩的游戏，小鱼来吃呀！...</p>
+									</div>
+								  <div class="clearfix"> </div>
+								</div>
+							</li>
+						
+							<li>
+								<div class="sub-trailer">
+									<div class="sub-img">
+										<a href="jindutiao.html" target="_blank"><img src="images/up_3.jpg" alt="img07"/></a>
+									</div>
+									<div class="sub-text">
+										<h4><a class="view-xiu" href="jindutiao.html" target="_blank">粒子进度条</a></h4>
+										<p>基于边框粒子效果，百分比显示加载进度条…</p>
+									</div>
+								  <div class="clearfix"> </div>
+								</div>
+							</li>
+						  <div class="clearfix"></div>	
+						</ul>
+					</div>	
+			
+				
+	              <div class="clearfix"></div>			
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!--Plug-in Initialisation-->
+	<script type="text/javascript">
+    $(document).ready(function() {
+
+        //Vertical Tab
+        $('#parentVerticalTab').easyResponsiveTabs({
+            type: 'vertical', //Types: default, vertical, accordion
+            width: 'auto', //auto or any width like 600px
+            fit: true, // 100% fit in a container
+            closed: 'accordion', // Start closed if in accordion view
+            tabidentify: 'hor_1', // The tab groups identifier
+            activate: function(event) { // Callback function if tab is switched
+                var $tab = $(this);
+                var $info = $('#nested-tabInfo2');
+                var $name = $('span', $info);
+                $name.text($tab.text());
+                $info.show();
+            }
+        });
+    });
+</script>
+<!-- Up Coming Games Ends Here -->
+
+ 
+<div class="our-team">
+	<div class="container">
+		<div class="team" id="ourteam">
+		  <h3>团队成员 </h3>
+			
+			<div class="team-up">			
+				<div class="col-md-3 team-size">
+					<div class="team-img">
+						<img src="./images/t_1.jpg" alt="image">
+						<h4>拳王 </h4>
+						<p>桌面排版</p>
+					</div>
+				</div>
+				
+				<div class="col-md-3 team-size">
+					<div class="team-img">
+						<img src="./images/t_2.jpg" alt="image">
+						<h4> 逐梦之音 </h4>
+						<p>平面设计师</p>
+					</div>
+				</div>
+				
+				<div class="col-md-3 team-size">
+					<div class="team-img">
+						<img src="./images/t_3.jpg" alt="image">
+						<h4>皇家上将 </h4>
+						<p>系统设计师</p>
+					</div>
+				</div>
+				
+				<div class="col-md-3 team-size">
+					<div class="team-img">
+						<img src="./images/t_6.jpg" alt="image">
+						<h4>至尊宝 </h4>
+						<p>媒体发布</p>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>                      <!-- Team-up ends here -->
+			
+			<div class="team-bottom">			
+				<div class="col-md-3 team-size">
+					<div class="team-img">
+						<img src="./images/t_4.jpg" alt="image">
+						<h4>德古拉伯爵 </h4>
+						<p>桌面排版</p>
+					</div>
+				</div>
+				
+				<div class="col-md-3 team-size">
+					<div class="team-img">
+						<img src="./images/t_5.jpg" alt="image">
+						<h4> 凤求凰 </h4>
+						<p>平面设计师</p>
+					</div>
+				</div>
+				
+				<div class="col-md-3 team-size">
+					<div class="team-img">
+						<img src="./images/t_7.jpg" alt="image">
+						<h4>星际指挥官 </h4>
+						<p>系统设计师</p>
+					</div>
+				</div>
+				
+				<div class="col-md-3 team-size">
+					<div class="team-img">
+						<img src="./images/t_8.jpg" alt="image">
+						<h4>真爱至上 </h4>
+						<p>媒体发布</p>
+					</div>
+				</div>
+			  <div class="clearfix"></div>	
+			</div> <!-- Team-bottom ends here -->
+		
+		  <div class="clearfix"></div>
+		</div> <!-- Team Ends -->
+
+    </div>
+</div> <!-- Our-team Ends -->
+	
+	
+<div class="contact" id="contact">
+  <div class="container">
+	<div class="padding-contact">
+			
+		<div class="col-md-4 address">
+		  <h3>实用工具</h3>
+			<address>
+				<a class="foot-gj" href="calendar.html" target="_blank">万年历</a><br>
+				<a class="foot-gj" href="photo-slider.html" target="_blank">团队相册</a><br>
+				<a class="foot-gj" href="weather.html" target="_blank">天气查询</a><br>
+				<span>Phone : +123 4567 8900</span>
+			</address>
+		</div>
+			
+		<div class="col-md-4 social-icons">
+		  <h3>关注我们</h3>
+			<ul class="social">
+				<li><a href="#" class="facebook" title="Go to Our Facebook Page"></a></li>
+				<li><a href="#" class="twitter" title="Go to Our Twitter Account"></a></li>
+				<li><a href="#" class="googleplus" title="Go to Our Google Plus Account"></a></li>
+				<li><a href="#" class="instagram" title="Go to Our Instagram Account"></a></li>
+				<li><a href="#" class="youtube" title="Go to Our Youtube Channel"></a></li>
+			</ul>
+		</div>
+			
+		<div class="col-md-4 newsletter">
+		  <h3>时事通讯</h3>
+			<form>
+				<input type="text" value="Enter Your email" onfocus="this.value = '';" onblur="if (this.value == '') 
+					{this.value = 'Enter Your email';}">
+				<input type="submit" value="订阅">
+			</form>
+		</div>
+	  <div class="clearfix"></div>
+	</div>
+			
+		<div class="footer">
+			<p>Copyright &copy; 2018.Company name All rights reserved. </p>
+		</div>
+  </div>
+</div>
+</body>
+</html>
